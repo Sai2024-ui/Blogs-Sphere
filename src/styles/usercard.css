@@ -1,0 +1,44 @@
+.user-card {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem 2rem;
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 2rem;
+}
+
+.user-card__avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: var(--color-primary);
+  color: #fff;
+  font-size: 1.75rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.user-card__name {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.user-card__email {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+}
+.user-card__company {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+  margin-top: 0.25rem;
+}
+.user-card__website {
+  font-size: 0.875rem;
+  display: inline-block;
+  margin-top: 0.5rem;
+}

@@ -1,0 +1,30 @@
+.comment-card {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.comment-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.comment-card__name {
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.comment-card__email {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+}
+.comment-card__body {
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
